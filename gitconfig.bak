@@ -1,0 +1,10 @@
+[user]
+	name = molivier1988
+	email = markolivier1969@gmail.com
+[credential]
+	helper = 
+	helper = /usr/local/share/gcm-core/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[init]
+	defaultBranch = main

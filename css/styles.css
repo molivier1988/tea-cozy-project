@@ -1,0 +1,186 @@
+/* Global settings */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.7;
+    text-align: center;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+a {
+    color: seashell;
+}
+
+/* ------------------------------------------------------------------ */
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    height: 69px;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+}
+
+/* Logo */
+.logo {
+    margin-left: 10px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+/* Navbar links */
+nav {
+    width: 400px;
+    margin-right: 10px;
+}
+
+.top-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ------------------------------------------------------------------ */
+
+/* Main Page */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main,
+#hero,
+#featured-tea,
+#locations {
+    margin-top: 70px;
+}
+
+/* Hero Section */
+#hero {
+    background-image: url("../images/img-mission-background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1465px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission-statement {
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+}
+
+/* ------------------------------------------------------------------ */
+
+/* Featured Teas Section */
+#featured-tea {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+}
+
+.section-header {
+    margin-bottom: 0.7em;
+}
+
+#photo-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img-card img {
+    width: 300px;
+    height: 200px;
+    margin: 10px 0;
+    margin-right: 30px;
+}
+
+/* ------------------------------------------------------------------ */
+
+/* Locations */
+#locations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1464px;
+    height: 500px;
+    background-image: url("../images/img-locations-background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.location-cards {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.location-card {
+    width: 300px;
+    background-color: black;
+    padding: 20px
+}
+
+.location-card h3 {
+    margin-bottom: 15px;
+}
+
+.location-card p {
+    font-size: 0.7em;
+    line-height: 3;
+}
+
+.card-1,
+.card-2 {
+    margin-right: 40px;
+}
+
+.card-3 {
+    opacity: 0.8;
+}
+
+/* ------------------------------------------------------------------ */
+
+/* Footer Section */
+h5,
+footer p,
+.copyright p {
+    font-size: 0.7em;
+}
+
+h5 {
+    margin: 40px 0;
+}
+
+/* ------------------------------------------------------------------ */
+
+/* Copyright Section */
+.copyright {
+    align-self: flex-start;
+    padding-left: 20px;
+}
